@@ -1,0 +1,15 @@
+| Column Name | Data Type                  | Description                                                                                                            | Example                          |
+| ----------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| `doc_id`    | String                     | Unique identifier assigned to each poem in the corpus. Each row corresponds to one poem.                               | `kpoem_0000`                     |
+| `text`      | String (UTF-8 Korean text) | Full text of the poem. This column is used for preprocessing, sentiment analysis, document embeddings, and clustering. | `죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를...` |
+| `title`     | String                     | Title of the poem.                                                                                                     | `서시`                             |
+| `poet`      | Categorical String         | Name of the poet who authored the poem. One of the five poets included in the corpus.                                  | `윤동주`                            |
+
+  | Dataset Property       | Value                                |
+| ---------------------- | ------------------------------------ |
+| File Name              | `kpoem_sample.csv`                   |
+| Number of Observations | 615 poems                            |
+| Unit of Analysis       | Individual poem                      |
+| Language               | Korean                               |
+| Time Period            | Japanese Colonial Period (1910–1945) |
+| Number of Poets        | 5                                    |
