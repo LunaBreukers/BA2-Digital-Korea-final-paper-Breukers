@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Breukers
+  given-names: Luna
+  
+title: "BA2-Digital-Korea-final-paper-Breukers"
+Course: Digital Korea
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2026-06-23
+url: "https://github.com/LunaBreukers/BA2-Digital-Korea-final-paper-Breukers"
